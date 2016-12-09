@@ -1,0 +1,10 @@
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/home/igor/Rails/gorails/liking_posts/app/assets/stylesheets/application.scss	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
+.page-header	/home/igor/Rails/gorails/liking_posts/app/assets/stylesheets/application.scss	/^.page-header {$/;"	function	line:18
+Like	/home/igor/Rails/gorails/liking_posts/app/models/like.rb	/^class Like < ApplicationRecord$/;"	class	line:1
+Post	/home/igor/Rails/gorails/liking_posts/app/models/post.rb	/^class Post < ApplicationRecord$/;"	class	line:1
+User	/home/igor/Rails/gorails/liking_posts/app/models/user.rb	/^class User < ApplicationRecord$/;"	class	line:1
+likes?	/home/igor/Rails/gorails/liking_posts/app/models/user.rb	/^  def likes?(post)$/;"	method	line:11	class:User
+Posts	/home/igor/Rails/gorails/liking_posts/app/controllers/posts/likes_controller.rb	/^class Posts::LikesController < ApplicationController$/;"	class	line:1
+create	/home/igor/Rails/gorails/liking_posts/app/controllers/posts/likes_controller.rb	/^  def create$/;"	method	line:5	class:Posts
+destroy	/home/igor/Rails/gorails/liking_posts/app/controllers/posts/likes_controller.rb	/^  def destroy$/;"	method	line:14	class:Posts
+set_post	/home/igor/Rails/gorails/liking_posts/app/controllers/posts/likes_controller.rb	/^  def set_post$/;"	method	line:25	class:Posts

@@ -11,4 +11,9 @@ class User < ApplicationRecord
   def likes?(post)
     post.likes.where(user_id: id).any?
   end
+
+  def avatar_url
+    hash = Digest::MD5.hexdigest(email)
+     "https://secure.gravatar.com/avatar/#{hash}"
+  end
 end

@@ -9,6 +9,13 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render 'partials/navbar' %>
+
+    <% if notice %><div class="alert alert-success" role="alert"><%= notice %></div><% end %>
+    <% if alert %><div class="alert alert-warning" role="alert"><%= alert %></div><% end %>
+
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
